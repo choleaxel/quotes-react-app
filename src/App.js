@@ -1,4 +1,6 @@
 import { Layout } from 'antd';
+import QuoteCard from './components/QuoteCards';
+import QuoteList from './components/QuoteList';
 
 import './App.css';
 
@@ -9,8 +11,12 @@ function App() {
     <>
     <Layout>
       <Header>Movie Quotes</Header>
-      <Content>Content</Content>
-      <Footer>Footer</Footer>
+      <Content>
+        <QuoteList/> 
+         <QuoteCard/> 
+        
+      </Content>
+      <Footer>Coding with Chole</Footer>
     </Layout>
     </>
   );
