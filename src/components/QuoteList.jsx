@@ -13,7 +13,7 @@ function QuoteList() {
       .catch(console.error)
   }, [])
   return (
-    <section style={{ marginTop: '60px', marginRight: '20px'}}>
+    <section style={{ backgroundColor:'#c8e1cc', display: 'flex',  justifyContent: 'center', marginTop: '60px', marginRight: '20px'}}>
       <Row> <h2>Quotes from Popular Movies</h2>
         {!quotes
           ? <h2>Loading...</h2>
